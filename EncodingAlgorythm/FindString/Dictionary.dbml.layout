@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Dictionary">
+  <DataContextMoniker Name="/DictionaryDataContext" />
+  <nestedChildShapes>
+    <classShape Id="85cd22d9-23e7-4369-8266-f8f3103a47c6" absoluteBounds="1.125, 1.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DictionaryDataContext/Word" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27143c55-9edc-4d16-a08c-49281037544f" absoluteBounds="1.1399999999999997, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

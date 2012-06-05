@@ -1,0 +1,12 @@
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\FindString\bin\Debug\FindString.dll.config
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\FindString\bin\Debug\FindString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\FindString\bin\Debug\FindString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\FindString\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\FindString\obj\x86\Debug\FindString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\FindString\obj\x86\Debug\FindString.pdb
+C:\Users\Dima\Desktop\mnemonic string\FindString\bin\Debug\FindString.dll.config
+C:\Users\Dima\Desktop\mnemonic string\FindString\bin\Debug\FindString.dll
+C:\Users\Dima\Desktop\mnemonic string\FindString\bin\Debug\FindString.pdb
+C:\Users\Dima\Desktop\mnemonic string\FindString\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\mnemonic string\FindString\obj\x86\Debug\FindString.dll
+C:\Users\Dima\Desktop\mnemonic string\FindString\obj\x86\Debug\FindString.pdb

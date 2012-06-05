@@ -1,0 +1,14 @@
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\CodeString\bin\Debug\CodeString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\CodeString\bin\Debug\CodeString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\CodeString\bin\Debug\FindString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\CodeString\bin\Debug\FindString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\CodeString\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\CodeString\obj\Debug\CodeString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\CodeString\obj\Debug\CodeString.pdb
+C:\Users\Dima\Desktop\mnemonic string\CodeString\bin\Debug\CodeString.dll
+C:\Users\Dima\Desktop\mnemonic string\CodeString\bin\Debug\CodeString.pdb
+C:\Users\Dima\Desktop\mnemonic string\CodeString\bin\Debug\FindString.dll
+C:\Users\Dima\Desktop\mnemonic string\CodeString\bin\Debug\FindString.pdb
+C:\Users\Dima\Desktop\mnemonic string\CodeString\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\mnemonic string\CodeString\obj\Debug\CodeString.dll
+C:\Users\Dima\Desktop\mnemonic string\CodeString\obj\Debug\CodeString.pdb

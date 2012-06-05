@@ -1,0 +1,14 @@
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\DeCodeString\bin\Debug\DeCodeString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\DeCodeString\bin\Debug\DeCodeString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\DeCodeString\bin\Debug\FindString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\DeCodeString\bin\Debug\FindString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\DeCodeString\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\DeCodeString\obj\x86\Debug\DeCodeString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\DeCodeString\obj\x86\Debug\DeCodeString.pdb
+C:\Users\Dima\Desktop\mnemonic string\DeCodeString\bin\Debug\DeCodeString.dll
+C:\Users\Dima\Desktop\mnemonic string\DeCodeString\bin\Debug\DeCodeString.pdb
+C:\Users\Dima\Desktop\mnemonic string\DeCodeString\bin\Debug\FindString.dll
+C:\Users\Dima\Desktop\mnemonic string\DeCodeString\bin\Debug\FindString.pdb
+C:\Users\Dima\Desktop\mnemonic string\DeCodeString\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\mnemonic string\DeCodeString\obj\x86\Debug\DeCodeString.dll
+C:\Users\Dima\Desktop\mnemonic string\DeCodeString\obj\x86\Debug\DeCodeString.pdb
