@@ -1,0 +1,1 @@
+All the website design such as makets, logos etc. should be placed here

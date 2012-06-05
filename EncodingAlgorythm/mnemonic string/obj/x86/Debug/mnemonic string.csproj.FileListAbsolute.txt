@@ -1,0 +1,38 @@
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\MainWindow.baml
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\App.g.cs
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\mnemonic string_MarkupCompile.cache
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\mnemonic string.g.resources
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\mnemonic_string.Properties.Resources.resources
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\mnemonic string.exe
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\mnemonic string.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\CodeString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\DeCodeString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\FindString.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\CodeString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\DeCodeString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\bin\Debug\FindString.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\mnemonic string.exe
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Project2\mnemonic string\obj\x86\Debug\mnemonic string.pdb
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\mnemonic string.exe
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\mnemonic string.pdb
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\mnemonic string.exe
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\mnemonic string.pdb
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\CodeString.dll
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\DeCodeString.dll
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\FindString.dll
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\CodeString.pdb
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\DeCodeString.pdb
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\bin\Debug\FindString.pdb
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\MainWindow.baml
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\App.g.cs
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\mnemonic string_MarkupCompile.cache
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\mnemonic string.g.resources
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\mnemonic_string.Properties.Resources.resources
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dima\Desktop\mnemonic string\mnemonic string\obj\x86\Debug\GenerateResource.write.1.tlog
