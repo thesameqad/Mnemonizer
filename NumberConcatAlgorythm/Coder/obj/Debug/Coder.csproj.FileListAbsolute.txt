@@ -12,3 +12,10 @@ C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\bin\Debug\DataWorker.pdb
 C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\Coder.dll
 C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\Coder.pdb
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
