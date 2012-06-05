@@ -1,0 +1,14 @@
+H:\Mnemonizer\Coder\bin\Debug\Coder.dll
+H:\Mnemonizer\Coder\bin\Debug\Coder.pdb
+H:\Mnemonizer\Coder\bin\Debug\DataWorker.dll
+H:\Mnemonizer\Coder\bin\Debug\DataWorker.pdb
+H:\Mnemonizer\Coder\obj\Debug\ResolveAssemblyReference.cache
+H:\Mnemonizer\Coder\obj\Debug\Coder.dll
+H:\Mnemonizer\Coder\obj\Debug\Coder.pdb
+C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\bin\Debug\Coder.dll
+C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\bin\Debug\Coder.pdb
+C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\bin\Debug\DataWorker.dll
+C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\bin\Debug\DataWorker.pdb
+C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\Coder.dll
+C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\Coder.pdb
