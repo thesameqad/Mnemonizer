@@ -34,15 +34,12 @@ namespace mnemonic_string
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             String enterString = DeCodeEnterString_TB.Text;
-          // DeCodeRsult_TB.Text = decoder.getdecode(enterString);
-            DeCodeRsult_TB.Text = decoder.mnemogetdecode(enterString);
-            
+            DeCodeRsult_TB.Text = decoder.mnemogetdecode(enterString);            
         }          
         private void button2_Click_1(object sender, RoutedEventArgs e)
         {
             String enterString = CodeEnterString_TB.Text;
             CodeRsult_TB.Text = coder.mnemoCode(enterString);
-          //  CodeRsult_TB.Text = coder.Code(enterString);
         }
                
     }

@@ -10,3 +10,9 @@ C:\Users\Dima\Desktop\mnemonic string\FindString\bin\Debug\FindString.pdb
 C:\Users\Dima\Desktop\mnemonic string\FindString\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Dima\Desktop\mnemonic string\FindString\obj\x86\Debug\FindString.dll
 C:\Users\Dima\Desktop\mnemonic string\FindString\obj\x86\Debug\FindString.pdb
+C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\FindString\bin\Debug\FindString.dll.config
+C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\FindString\bin\Debug\FindString.dll
+C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\FindString\bin\Debug\FindString.pdb
+C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\FindString\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\FindString\obj\x86\Debug\FindString.dll
+C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\FindString\obj\x86\Debug\FindString.pdb
