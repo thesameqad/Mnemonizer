@@ -10,8 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataWorker", "DataWorker\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coder", "Coder\Coder.csproj", "{2A842011-48C7-4F8F-8778-C881317867F7}"
 	ProjectSection(ProjectDependencies) = postProject
+		{26619858-A3F4-4281-901C-7A5225152240} = {26619858-A3F4-4281-901C-7A5225152240}
 		{824BD1A1-290D-44B6-89B0-347F6A0EA31B} = {824BD1A1-290D-44B6-89B0-347F6A0EA31B}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_DataAccess", "WCF_DataAccess\WCF_DataAccess.csproj", "{26619858-A3F4-4281-901C-7A5225152240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +56,16 @@ Global
 		{2A842011-48C7-4F8F-8778-C881317867F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2A842011-48C7-4F8F-8778-C881317867F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2A842011-48C7-4F8F-8778-C881317867F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{26619858-A3F4-4281-901C-7A5225152240}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,15 +4,30 @@ using System.Linq;
 using System.Text;
 using DataWorker;
 using System.Numerics;
+using Coder.DBServiceReference;
 
 namespace Coder
 {
     public class MnemonicCoder
     {
         private DataConnection dataConnector = new DataConnection();
+        //private WCF_DataAccess.DbService dbService = new WCF_DataAccess.DbService();
+        //private DataBaseService.DbServiceClient dataService = new DataBaseService.DbServiceClient();
+        //private DataBaseService.DbServiceClient dataService;
+
+        public MnemonicCoder()
+        {
+           // dataService = new DataBaseService.DbServiceClient();
+        }
+
 
         public string coding (string enterString)
         {
+
+            //dataService = new DataBaseService.DbServiceClient();
+            //dataService.Open();
+          
+
             //mnemonic string
             string MnemonicString = "";
             //numeric code of word (string format)
@@ -31,14 +46,27 @@ namespace Coder
             //remainder of dividing
             BigInteger ModOfDivCode = 0;
 
-            do
+            using (var client = new DbServiceClient())
             {
-                NumericCode = BigInteger.DivRem(NumericCode, countWordsInDictionary, out ModOfDivCode);
-                //Get word by number. Number equals integral part of the division
-                MnemonicString += dataConnector.getWordByNumber((ulong)ModOfDivCode);
-                MnemonicString += " ";
+                client.Open();
+                do
+                {
+                    NumericCode = BigInteger.DivRem(NumericCode, countWordsInDictionary, out ModOfDivCode);
+                    //Get word by number. Number equals integral part of the division
+                    //MnemonicString += dataConnector.getWordByNumber((ulong)ModOfDivCode);
+
+                    
+                    MnemonicString += client.GetWord((int)ModOfDivCode);
+                    
+
+
+                    //DataBaseService.DbServiceClient dataService = new DataBaseService.DbServiceClient();
+                    //MnemonicString += dataService.GetWord((int)ModOfDivCode);
+                    MnemonicString += " ";
+                }
+                while (NumericCode != 0);
+                client.Close();
             }
-            while (NumericCode != 0);
 
             return MnemonicString;
         }
@@ -59,10 +87,16 @@ namespace Coder
             //total lenght of dictionary
             ulong countWordsInDictionary = dataConnector.getCountOfRows();
 
+
+            //DataBaseService.DbServiceClient dbService = new DataBaseService.DbServiceClient();
             for (int i = N-1; i >= 0; i--)
             {
                 if (words[i] != "")
-                    NumericCode += dataConnector.getWordId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+                {
+                   // DataBaseService.DbServiceClient dataService = new DataBaseService.DbServiceClient();
+                   // NumericCode += dataService.GetId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+                    //  NumericCode += dataConnector.getWordId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+                }
             }
 
 
