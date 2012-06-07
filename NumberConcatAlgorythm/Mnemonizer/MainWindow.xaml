@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Mnemonizer.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="340" Width="433">
+        Title="MainWindow" Height="347" Width="433">
     <Grid Loaded="Grid_Loaded">
         <GroupBox Header="Режим" Height="47" HorizontalAlignment="Left" Margin="12,12,0,0" Name="gbState" VerticalAlignment="Top" Width="387">
             <Grid Height="24">
@@ -14,7 +14,7 @@
             </Grid>
         </GroupBox>
         <TextBox Height="22" HorizontalAlignment="Left" Margin="18,84,0,0" Name="textBox1" VerticalAlignment="Top" Width="381" />
-        <TextBox Height="22" HorizontalAlignment="Left" Margin="18,157,0,0" Name="textBox2" VerticalAlignment="Top" Width="381" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="12,157,0,0" Name="textBox2" VerticalAlignment="Top" Width="387" />
         <Button Content="Button" Height="30" HorizontalAlignment="Left" Margin="52,112,0,0" Name="button1" VerticalAlignment="Top" Width="314" Click="button1_Click" />
     </Grid>
 </Window>

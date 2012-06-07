@@ -12,20 +12,18 @@ C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\bin\Debug\DataWorker.pdb
 C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\Coder.dll
 C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Coder\obj\Debug\Coder.pdb
-<<<<<<< HEAD
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
-=======
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
->>>>>>> 130ed4f9deb5a154f5e8d294b903339a26b982f0
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
+C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll.config

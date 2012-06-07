@@ -1,0 +1,10 @@
+c:\users\yana\documents\visual studio 2010\Projects\WCF_DataAccess\WCF_DataAccess\bin\WCF_DataAccess.dll
+c:\users\yana\documents\visual studio 2010\Projects\WCF_DataAccess\WCF_DataAccess\bin\WCF_DataAccess.pdb
+c:\users\yana\documents\visual studio 2010\Projects\WCF_DataAccess\WCF_DataAccess\obj\Debug\ResolveAssemblyReference.cache
+c:\users\yana\documents\visual studio 2010\Projects\WCF_DataAccess\WCF_DataAccess\obj\Debug\WCF_DataAccess.dll
+c:\users\yana\documents\visual studio 2010\Projects\WCF_DataAccess\WCF_DataAccess\obj\Debug\WCF_DataAccess.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\bin\WCF_DataAccess.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\bin\WCF_DataAccess.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\WCF_DataAccess.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\WCF_DataAccess.pdb
