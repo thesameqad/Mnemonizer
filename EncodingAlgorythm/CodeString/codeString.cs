@@ -31,23 +31,26 @@ namespace CodeString
             sw.Start();
             while (start < text.Length)
             {
-                end = start + 1;
-                while (end < text.Length)
+                end = text.Length-1;
+                while (end >= start)
                 {
-                    tmp = copy(start, end, text);
-                    end++;
-                    cur = FS.word(tmp);
-                    if (text.Length % 2 != 0)
-                    {
-                        if (cur == "" || (text.Length - end) == 1)
-                        {  end--;  break; }
-                    }
+
+                   /* if ((text.Length - end) == 1)
+                        cur = FS.word(text[end].ToString());
                     else
-                        if (cur == "" )
-                        { end--; break; }
-                    res = cur;
+                    {*/
+                        tmp = copy(start, end, text);
+                        cur = FS.word(tmp);
+                   // }
+
+                    if (cur != "")
+                    { end++; res = cur; break; }               
+                    end--;
+                    
                 }
                 result += res + " ";
+                if( end == text.Length)
+                    break;
                 start = end;
             }
             sw.Stop();
