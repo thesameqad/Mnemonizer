@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DictionaryService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50383/DictionaryService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50383/DictionaryService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDictionaryService_GetWordById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWordById" />
+  </wsdl:message>
+  <wsdl:message name="IDictionaryService_GetWordById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWordByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDictionaryService_GetIdForWord_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdForWord" />
+  </wsdl:message>
+  <wsdl:message name="IDictionaryService_GetIdForWord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdForWordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDictionaryService_GetWordsCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWordsCount" />
+  </wsdl:message>
+  <wsdl:message name="IDictionaryService_GetWordsCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWordsCountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDictionaryService">
+    <wsdl:operation name="GetWordById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDictionaryService/GetWordById" message="tns:IDictionaryService_GetWordById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDictionaryService/GetWordByIdResponse" message="tns:IDictionaryService_GetWordById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIdForWord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDictionaryService/GetIdForWord" message="tns:IDictionaryService_GetIdForWord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDictionaryService/GetIdForWordResponse" message="tns:IDictionaryService_GetIdForWord_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWordsCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDictionaryService/GetWordsCount" message="tns:IDictionaryService_GetWordsCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDictionaryService/GetWordsCountResponse" message="tns:IDictionaryService_GetWordsCount_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDictionaryService" type="tns:IDictionaryService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWordById">
+      <soap:operation soapAction="http://tempuri.org/IDictionaryService/GetWordById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIdForWord">
+      <soap:operation soapAction="http://tempuri.org/IDictionaryService/GetIdForWord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWordsCount">
+      <soap:operation soapAction="http://tempuri.org/IDictionaryService/GetWordsCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DictionaryService">
+    <wsdl:port name="BasicHttpBinding_IDictionaryService" binding="tns:BasicHttpBinding_IDictionaryService">
+      <soap:address location="http://localhost:50383/DictionaryService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

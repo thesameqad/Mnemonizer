@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DictionaryModelStoreContainer" CdmEntityContainer="DictionaryEntities">
+    <EntitySetMapping Name="Words">
+      <EntityTypeMapping TypeName="DictionaryModel.Words">
+        <MappingFragment StoreEntitySet="Words">
+          <ScalarProperty Name="Word" ColumnName="Word" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
