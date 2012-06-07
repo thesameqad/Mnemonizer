@@ -34,23 +34,18 @@ namespace CodeString
                 end = text.Length-1;
                 while (end >= start)
                 {
-
-                   /* if ((text.Length - end) == 1)
-                        cur = FS.word(text[end].ToString());
-                    else
-                    {*/
-                        tmp = copy(start, end, text);
-                        cur = FS.word(tmp);
-                   // }
+                    tmp = copy(start, end, text);
+                    cur = FS.word(tmp);               
 
                     if (cur != "")
-                    { end++; res = cur; break; }               
-                    end--;
-                    
+                    { 
+                        end++; 
+                        res = cur; 
+                        break; 
+                    }               
+                    end--;                    
                 }
-                result += res + " ";
-                if( end == text.Length)
-                    break;
+                result += res + " ";               
                 start = end;
             }
             sw.Stop();
