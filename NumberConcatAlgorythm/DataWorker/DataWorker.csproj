@@ -58,7 +58,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Dictionary.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>Dictionary.designer.cs</LastGenOutput>

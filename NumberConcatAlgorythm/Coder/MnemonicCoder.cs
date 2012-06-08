@@ -11,7 +11,7 @@ namespace Coder
     {
         DataConnection dataConnector = new DataConnection();
 
-        public string coding (string enterString)
+        public string GetMnemonicString (string enterString)
         {
             //мнемоническая строка (результат кодировки)
             string mnemonicString = "";
@@ -21,37 +21,40 @@ namespace Coder
             ulong numerCode = 0;
 
             //общее количество слов в словаре
-            ulong countWordsInDictionary = dataConnector.getCountOfRows();
-                
-            for (int i = 0; i < enterString.Length; i++)
-                code += (int)enterString[i]-33;
-
-            //преобразуем в число
-            for (int i = 0; i < code.Length; i++)
-                numerCode += (ulong)((code[i] - 48) * Math.Pow(10 ,(code.Length - i - 1)));
-
-            //целая часть от деления numerCode на countWordsInDictionary
-            ulong integralPart;
-            //остаток от деления numerCode на countWordsInDictionary
-            ulong mod;
-
-            do
+            using (Service.DictionaryServiceClient client = new Service.DictionaryServiceClient())
             {
-                integralPart = numerCode / countWordsInDictionary;
-                mod = numerCode % countWordsInDictionary;
+                ulong countWordsInDictionary = (ulong)client.GetWordsCount();
 
-                mnemonicString += dataConnector.getWordByNumber(mod);
-                mnemonicString += " ";
+                for (int i = 0; i < enterString.Length; i++)
+                    code += (int)enterString[i] - 33;
 
-                numerCode = integralPart;
+                //преобразуем в число
+                for (int i = 0; i < code.Length; i++)
+                    numerCode += (ulong)((code[i] - 48) * Math.Pow(10, (code.Length - i - 1)));
+
+                //целая часть от деления numerCode на countWordsInDictionary
+                ulong integralPart;
+                //остаток от деления numerCode на countWordsInDictionary
+                ulong mod;
+
+                do
+                {
+                    integralPart = numerCode / countWordsInDictionary;
+                    mod = numerCode % countWordsInDictionary;
+
+                    mnemonicString += client.GetWordById((int)mod);
+                    mnemonicString += " ";
+
+                    numerCode = integralPart;
+                }
+                while (integralPart != 0);
             }
-            while (integralPart != 0);
 
            // mnemonicString = code;
             return mnemonicString;
         }
 
-        public string decoding(string mnemonicString)
+        public string GetOriginalString(string mnemonicString)
         {
             //результирующая строка (результат раскодирования)
             string resultString = "";
@@ -63,13 +66,16 @@ namespace Coder
 
             //числовой код
             ulong code = 0;
-            //общее количество слов в словаре
-            ulong countWordsInDictionary = dataConnector.getCountOfRows();
+            using (Service.DictionaryServiceClient client = new Service.DictionaryServiceClient())
+            {
+                //общее количество слов в словаре
+                ulong countWordsInDictionary = (ulong)client.GetWordsCount();
 
-            for (int i = N-1; i >= 0; i--)
-            {      
-                if(words[i] !="")
-                    code += dataConnector.getWordId(words[i]) * (ulong)Math.Pow(countWordsInDictionary, i);
+                for (int i = N - 1; i >= 0; i--)
+                {
+                    if (words[i] != "")
+                        code += client.GetIdForWord(words[i]) * (ulong)Math.Pow(countWordsInDictionary, i);
+                }
             }
 
             //код символа

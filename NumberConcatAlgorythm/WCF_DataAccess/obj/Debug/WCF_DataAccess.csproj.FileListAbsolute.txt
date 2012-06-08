@@ -8,3 +8,8 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\bin\WCF_DataA
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\WCF_DataAccess.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\WCF_DataAccess.pdb
+C:\Development\Mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\bin\WCF_DataAccess.dll
+C:\Development\Mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\bin\WCF_DataAccess.pdb
+C:\Development\Mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\WCF_DataAccess.dll
+C:\Development\Mnemonizer\NumberConcatAlgorythm\WCF_DataAccess\obj\Debug\WCF_DataAccess.pdb

@@ -4,28 +4,16 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\
-=======
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\
->>>>>>> 130ed4f9deb5a154f5e8d294b903339a26b982f0
 Mnemonizer
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\App.xaml
-11151548125
-
-5-2017746502
-131474559873
-=======
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\App.xaml
 11151548125
 
 5-2017746502
-13252815926
->>>>>>> 130ed4f9deb5a154f5e8d294b903339a26b982f0
+15-2022753868
 MainWindow.xaml;
 
 False

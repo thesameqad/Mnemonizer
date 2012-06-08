@@ -34,27 +34,6 @@ C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Mnemonizer\bin\Debug\Coder.dll
 C:\Users\1\Desktop\DIIT\Курсы\Mnemonizer\Mnemonizer\bin\Debug\Coder.pdb
 C:\Users\User\Documents\Mnemonizer\Mnemonizer\Mnemonizer\obj\x86\Debug\Mnemonizer.exe
 C:\Users\User\Documents\Mnemonizer\Mnemonizer\Mnemonizer\obj\x86\Debug\Mnemonizer.pdb
-<<<<<<< HEAD
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.exe
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.pdb
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemonizer.exe
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemonizer.pdb
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Coder.dll
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\DataWorker.dll
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Coder.pdb
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\DataWorker.pdb
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\MainWindow.baml
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\MainWindow.g.cs
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\App.g.cs
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer_MarkupCompile.cache
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.g.resources
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.Properties.Resources.resources
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\GenerateResource.write.1.tlog
-=======
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.exe
-C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.pdb
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemonizer.exe
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemonizer.pdb
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Coder.dll
@@ -70,4 +49,6 @@ C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemoni
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.Properties.Resources.resources
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\GenerateResource.write.1.tlog
->>>>>>> 130ed4f9deb5a154f5e8d294b903339a26b982f0
+C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.exe
+C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.pdb
+C:\Development\Mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemonizer.exe.config

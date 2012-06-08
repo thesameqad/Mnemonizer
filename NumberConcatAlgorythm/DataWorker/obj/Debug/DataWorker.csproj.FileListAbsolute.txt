@@ -10,14 +10,9 @@ H:\Mnemonizer\DataWorker\bin\Debug\DataWorker.pdb
 H:\Mnemonizer\DataWorker\obj\Debug\ResolveAssemblyReference.cache
 H:\Mnemonizer\DataWorker\obj\Debug\DataWorker.dll
 H:\Mnemonizer\DataWorker\obj\Debug\DataWorker.pdb
-<<<<<<< HEAD
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Dima\Desktop\mnemonizer\mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\DataWorker.dll
-=======
 C:\Development\Mnemonizer\NumberConcatAlgorythm\DataWorker\bin\Debug\DataWorker.dll.config
 C:\Development\Mnemonizer\NumberConcatAlgorythm\DataWorker\bin\Debug\DataWorker.dll
 C:\Development\Mnemonizer\NumberConcatAlgorythm\DataWorker\bin\Debug\DataWorker.pdb
 C:\Development\Mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\ResolveAssemblyReference.cache
 C:\Development\Mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\DataWorker.dll
 C:\Development\Mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\DataWorker.pdb
->>>>>>> 130ed4f9deb5a154f5e8d294b903339a26b982f0

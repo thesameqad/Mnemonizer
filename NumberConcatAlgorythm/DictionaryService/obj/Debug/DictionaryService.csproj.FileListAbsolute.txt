@@ -1,0 +1,5 @@
+C:\Development\Mnemonizer\NumberConcatAlgorythm\DictionaryService\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Mnemonizer\NumberConcatAlgorythm\DictionaryService\bin\DictionaryService.dll
+C:\Development\Mnemonizer\NumberConcatAlgorythm\DictionaryService\bin\DictionaryService.pdb
+C:\Development\Mnemonizer\NumberConcatAlgorythm\DictionaryService\obj\Debug\DictionaryService.dll
+C:\Development\Mnemonizer\NumberConcatAlgorythm\DictionaryService\obj\Debug\DictionaryService.pdb
