@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="df13ea4f-930b-4463-a0f1-3754e9c65cad" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53972/DictionaryService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DictionaryService.wsdl" MetadataType="Wsdl" ID="a1283fcf-5e14-429a-bdf7-1b614901273d" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?wsdl" />
+    <MetadataFile FileName="DictionaryService.disco" MetadataType="Disco" ID="58a9fc61-7e31-41ad-8997-670b5585b7a9" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?disco" />
+    <MetadataFile FileName="DictionaryService.xsd" MetadataType="Schema" ID="75b7dd68-5dc8-4e73-8246-e3ce80f38c90" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DictionaryService1.xsd" MetadataType="Schema" ID="2c46e66f-f349-4b18-b52a-f522cb319cab" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
