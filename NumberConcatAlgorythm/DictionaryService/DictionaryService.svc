@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DictionaryService.DictionaryService" CodeBehind="DictionaryService.svc.cs" %>
