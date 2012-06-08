@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="MnemonicCoder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\DBServiceReference\Reference.cs">
+    <Compile Include="Service References\DictionaryServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -56,34 +56,38 @@
       <Project>{824BD1A1-290D-44B6-89B0-347F6A0EA31B}</Project>
       <Name>DataWorker</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SimpleDatabaseProject\SampleDatabaseProject.csproj">
+      <Project>{2D6DF482-F3DD-4B20-8577-1183E277244A}</Project>
+      <Name>SampleDatabaseProject</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Service References\DBServiceReference\DbService.wsdl" />
-    <None Include="Service References\DBServiceReference\DbService.xsd">
+    <None Include="Service References\DictionaryServiceReference\DictionaryService.wsdl" />
+    <None Include="Service References\DictionaryServiceReference\DictionaryService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\DBServiceReference\DbService1.xsd">
+    <None Include="Service References\DictionaryServiceReference\DictionaryService1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\DBServiceReference\" />
+    <WCFMetadataStorage Include="Service References\DictionaryServiceReference\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\DBServiceReference\DbService.disco" />
+    <None Include="Service References\DictionaryServiceReference\DictionaryService.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\DBServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\DictionaryServiceReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\DBServiceReference\configuration.svcinfo" />
+    <None Include="Service References\DictionaryServiceReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\DBServiceReference\Reference.svcmap">
+    <None Include="Service References\DictionaryServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

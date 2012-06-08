@@ -43,5 +43,15 @@ namespace DataWorker
                            ).Count();
             return (ulong)idWord;
         }
+
+        public Array getAllWords()
+        {
+            DictionaryDataContext data = new DictionaryDataContext();
+            Array Words = (
+                              from w in data.Words
+                              select w.word
+                           ).ToArray<string>();
+            return Words;
+        }
     }
 }

@@ -32,6 +32,7 @@ namespace Mnemonizer
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             //string str = connector.getWordByNumber(12);
+            //coder.fillTable();
         }
 
         private void radioButton1_Checked(object sender, RoutedEventArgs e)

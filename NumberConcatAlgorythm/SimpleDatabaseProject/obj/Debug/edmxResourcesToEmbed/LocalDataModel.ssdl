@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SampleDatabaseModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SampleDatabaseModelStoreContainer">
+    <EntitySet Name="Words" EntityType="SampleDatabaseModel.Store.Words" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="Words">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Word" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+</Schema>

@@ -27,3 +27,6 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssem
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll.config
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SampleDatabase.sdf
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.pdb

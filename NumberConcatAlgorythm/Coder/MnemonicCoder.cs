@@ -2,70 +2,65 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DataWorker;
+//using DataWorker;
 using System.Numerics;
-using Coder.DBServiceReference;
+//using SimpleDatabaseProject;
+//using Coder.DataBaseService;
 
 namespace Coder
 {
     public class MnemonicCoder
     {
-        private DataConnection dataConnector = new DataConnection();
-        //private WCF_DataAccess.DbService dbService = new WCF_DataAccess.DbService();
-        //private DataBaseService.DbServiceClient dataService = new DataBaseService.DbServiceClient();
-        //private DataBaseService.DbServiceClient dataService;
+        //private DataConnection dataConnector = new DataConnection();
 
-        public MnemonicCoder()
+       /* public void fillTable()
         {
-           // dataService = new DataBaseService.DbServiceClient();
-        }
+            LocalDataConnector LocalConnector = new LocalDataConnector();
+            Array arr = dataConnector.getAllWords();
+            foreach (string word in arr)
+            {
+                LocalConnector.insertToTable(word);
+            }
+        }*/
 
 
         public string coding (string enterString)
         {
-
-            //dataService = new DataBaseService.DbServiceClient();
-            //dataService.Open();
-          
 
             //mnemonic string
             string MnemonicString = "";
             //numeric code of word (string format)
             string code = "";
             //numeric code of word (intager format)
-            BigInteger NumericCode = new BigInteger();           
+            BigInteger NumericCode = new BigInteger();
 
-            //total lenght of dictionary
-            ulong countWordsInDictionary = dataConnector.getCountOfRows();
-                
-            for (int i = 0; i < enterString.Length; i++)
-                code += (int)enterString[i]-33;
 
-            NumericCode = BigInteger.Parse(code);
-           
-            //remainder of dividing
-            BigInteger ModOfDivCode = 0;
-
-            using (var client = new DbServiceClient())
+            using (DictionaryServiceReference.DictionaryServiceClient client = new DictionaryServiceReference.DictionaryServiceClient())
             {
-                client.Open();
+
+                //total lenght of dictionary
+                int countWordsInDictionary = client.GetWordsCount(); //dataConnector.getCountOfRows();
+
+                for (int i = 0; i < enterString.Length; i++)
+                    code += (int)enterString[i] - 33;
+
+                NumericCode = BigInteger.Parse(code);
+
+                //remainder of dividing
+                BigInteger ModOfDivCode = 0;
+
+                // DbServiceClient client = new DbServiceClient();
+
                 do
                 {
+
                     NumericCode = BigInteger.DivRem(NumericCode, countWordsInDictionary, out ModOfDivCode);
                     //Get word by number. Number equals integral part of the division
-                    //MnemonicString += dataConnector.getWordByNumber((ulong)ModOfDivCode);
-
+                    MnemonicString += client.GetWordById((int)ModOfDivCode); //dataConnector.getWordByNumber((ulong)ModOfDivCode);
                     
-                    MnemonicString += client.GetWord((int)ModOfDivCode);
-                    
-
-
-                    //DataBaseService.DbServiceClient dataService = new DataBaseService.DbServiceClient();
-                    //MnemonicString += dataService.GetWord((int)ModOfDivCode);
                     MnemonicString += " ";
                 }
                 while (NumericCode != 0);
-                client.Close();
             }
 
             return MnemonicString;
@@ -84,21 +79,23 @@ namespace Coder
             //numeric code of mnemonic string
             BigInteger NumericCode = 0;
 
-            //total lenght of dictionary
-            ulong countWordsInDictionary = dataConnector.getCountOfRows();
-
-
-            //DataBaseService.DbServiceClient dbService = new DataBaseService.DbServiceClient();
-            for (int i = N-1; i >= 0; i--)
+            using (DictionaryServiceReference.DictionaryServiceClient client = new DictionaryServiceReference.DictionaryServiceClient())
             {
-                if (words[i] != "")
+
+                //total lenght of dictionary
+                int countWordsInDictionary = client.GetWordsCount(); //dataConnector.getCountOfRows();
+
+
+                //DataBaseService.DbServiceClient dbService = new DataBaseService.DbServiceClient();
+                for (int i = N - 1; i >= 0; i--)
                 {
-                   // DataBaseService.DbServiceClient dataService = new DataBaseService.DbServiceClient();
-                   // NumericCode += dataService.GetId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
-                    //  NumericCode += dataConnector.getWordId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+                    if (words[i] != "")
+                    {
+                        NumericCode += client.GetIdForWord(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+                        //NumericCode += dataConnector.getWordId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+                    }
                 }
             }
-
 
             //code of simbol
             BigInteger CodeOfSimbol = 0;
