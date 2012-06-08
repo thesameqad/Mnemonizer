@@ -31,21 +31,18 @@ namespace CodeString
             sw.Start();
             while (start < text.Length)
             {
-                end = text.Length-1;
-                while (end >= start)
+                end = start;
+                while (end < text.Length)
                 {
                     tmp = copy(start, end, text);
-                    cur = FS.word(tmp);               
+                    cur = FS.word(tmp);
 
-                    if (cur != "")
-                    { 
-                        end++; 
-                        res = cur; 
-                        break; 
-                    }               
-                    end--;                    
+                    if (cur == "")
+                        break;
+                    res = cur;
+                    end++;
                 }
-                result += res + " ";               
+                result += res + " ";
                 start = end;
             }
             sw.Stop();
