@@ -67,3 +67,5 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mne
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemonizer.exe.config
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\SimpleDatabaseProject.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\SimpleDatabaseProject.pdb

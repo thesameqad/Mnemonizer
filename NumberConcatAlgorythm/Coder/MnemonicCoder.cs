@@ -12,17 +12,7 @@ namespace Coder
     public class MnemonicCoder
     {
         //private DataConnection dataConnector = new DataConnection();
-
-       /* public void fillTable()
-        {
-            LocalDataConnector LocalConnector = new LocalDataConnector();
-            Array arr = dataConnector.getAllWords();
-            foreach (string word in arr)
-            {
-                LocalConnector.insertToTable(word);
-            }
-        }*/
-
+        private SimpleDatabaseProject.LocalDataConnector client = new SimpleDatabaseProject.LocalDataConnector();
 
         public string coding (string enterString)
         {
@@ -35,8 +25,8 @@ namespace Coder
             BigInteger NumericCode = new BigInteger();
 
 
-            using (DictionaryServiceReference.DictionaryServiceClient client = new DictionaryServiceReference.DictionaryServiceClient())
-            {
+            //using (DictionaryServiceReference.DictionaryServiceClient client = new DictionaryServiceReference.DictionaryServiceClient())
+            //{
 
                 //total lenght of dictionary
                 int countWordsInDictionary = client.GetWordsCount(); //dataConnector.getCountOfRows();
@@ -61,7 +51,7 @@ namespace Coder
                     MnemonicString += " ";
                 }
                 while (NumericCode != 0);
-            }
+            //}
 
             return MnemonicString;
         }
@@ -79,8 +69,8 @@ namespace Coder
             //numeric code of mnemonic string
             BigInteger NumericCode = 0;
 
-            using (DictionaryServiceReference.DictionaryServiceClient client = new DictionaryServiceReference.DictionaryServiceClient())
-            {
+            //using (DictionaryServiceReference.DictionaryServiceClient client = new DictionaryServiceReference.DictionaryServiceClient())
+            //{
 
                 //total lenght of dictionary
                 int countWordsInDictionary = client.GetWordsCount(); //dataConnector.getCountOfRows();
@@ -95,7 +85,7 @@ namespace Coder
                         //NumericCode += dataConnector.getWordId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
                     }
                 }
-            }
+           // }
 
             //code of simbol
             BigInteger CodeOfSimbol = 0;

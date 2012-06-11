@@ -12,7 +12,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Coder;
-//using DataWorker;
 
 namespace Mnemonizer
 {
@@ -21,7 +20,6 @@ namespace Mnemonizer
     /// </summary>
     public partial class MainWindow : Window
     {
-       //DataConnection connector = new DataConnection();
         private MnemonicCoder coder = new MnemonicCoder();
 
         public MainWindow()
@@ -31,8 +29,7 @@ namespace Mnemonizer
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            //string str = connector.getWordByNumber(12);
-            //coder.fillTable();
+
         }
 
         private void radioButton1_Checked(object sender, RoutedEventArgs e)

@@ -9,37 +9,24 @@ namespace SimpleDatabaseProject
 {
     public class LocalDataConnector
     {
-        private SampleDatabaseEntities DatabaseContent;
+        private SampleDatabaseEntities1 DatabaseContent = new SampleDatabaseEntities1();
 
-
-        public void insertToTable(string NameWord)
+        public string GetWordById(int id)
         {
+            //DatabaseContent = new SampleDatabaseEntities();
+            return DatabaseContent.Words.Where(w => w.ID == id).FirstOrDefault().Word;
+        }
 
-            DatabaseContent = new SampleDatabaseEntities(@"Data Source=C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\SampleDatabase.sdf");
-            //запрос на запонение БД
-            //LINQ insert
+        public int GetIdForWord(string word)
+        {
+            //DatabaseContent = new SampleDatabaseEntities();
+            return DatabaseContent.Words.Where(w => w.Word == word).FirstOrDefault().ID;
+        }
 
-            /*try
-            {
-                SqlConnection connection = new SqlConnection(@"Data Source=C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\SampleDatabase.sdf");
-                connection.Open();
-
-                string query = "INSERT INTO Words (Word) VALUES (@NameWord)";
-                SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.Add(new SqlParameter()
-                {
-                    DbType = DbType.String,
-                    Value = NameWord,
-                    ParameterName = "NameWord"
-                });
-
-                int id = command.ExecuteNonQuery();
-            }
-            catch (Exception e)
-            { 
-                
-            }
-            */
+        public int GetWordsCount()
+        {
+            //DatabaseContent = new SampleDatabaseEntities();
+            return DatabaseContent.Words.ToList().Count;
         }
     }
 }
