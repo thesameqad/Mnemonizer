@@ -40,10 +40,10 @@ namespace Mnemonizer
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             if (rbCode.IsChecked == true)
-                textBox2.Text = coder.coding(textBox1.Text);
+                textBox2.Text = coder.GetMnemonicString(textBox1.Text);
             else 
                 if(rbDecode.IsChecked == true)
-                    textBox2.Text = coder.decoding(textBox1.Text);
+                    textBox2.Text = coder.GetOriginalString(textBox1.Text);
         }
     }
 }

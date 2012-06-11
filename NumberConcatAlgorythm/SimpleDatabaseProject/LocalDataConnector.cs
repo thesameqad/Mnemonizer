@@ -13,19 +13,16 @@ namespace SimpleDatabaseProject
 
         public string GetWordById(int id)
         {
-            //DatabaseContent = new SampleDatabaseEntities();
             return DatabaseContent.Words.Where(w => w.ID == id).FirstOrDefault().Word;
         }
 
         public int GetIdForWord(string word)
         {
-            //DatabaseContent = new SampleDatabaseEntities();
             return DatabaseContent.Words.Where(w => w.Word == word).FirstOrDefault().ID;
         }
 
         public int GetWordsCount()
         {
-            //DatabaseContent = new SampleDatabaseEntities();
             return DatabaseContent.Words.ToList().Count;
         }
     }

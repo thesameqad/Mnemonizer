@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="df13ea4f-930b-4463-a0f1-3754e9c65cad" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e979c9a3-9a72-4e6b-9740-7ae05f12af2c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
@@ -18,13 +18,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:53972/DictionaryService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:59795/DictionaryService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="DictionaryService.wsdl" MetadataType="Wsdl" ID="a1283fcf-5e14-429a-bdf7-1b614901273d" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?wsdl" />
-    <MetadataFile FileName="DictionaryService.disco" MetadataType="Disco" ID="58a9fc61-7e31-41ad-8997-670b5585b7a9" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?disco" />
-    <MetadataFile FileName="DictionaryService.xsd" MetadataType="Schema" ID="75b7dd68-5dc8-4e73-8246-e3ce80f38c90" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?xsd=xsd0" />
-    <MetadataFile FileName="DictionaryService1.xsd" MetadataType="Schema" ID="2c46e66f-f349-4b18-b52a-f522cb319cab" SourceId="1" SourceUrl="http://localhost:53972/DictionaryService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DictionaryService.wsdl" MetadataType="Wsdl" ID="e54b94a1-58db-4433-be57-b461aa67d4b0" SourceId="1" SourceUrl="http://localhost:59795/DictionaryService.svc?wsdl" />
+    <MetadataFile FileName="DictionaryService.xsd" MetadataType="Schema" ID="f0585717-319a-49b6-b2dc-9e41ec044c0c" SourceId="1" SourceUrl="http://localhost:59795/DictionaryService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DictionaryService.disco" MetadataType="Disco" ID="59620c61-4043-4ba3-87ad-6e8a8069de60" SourceId="1" SourceUrl="http://localhost:59795/DictionaryService.svc?disco" />
+    <MetadataFile FileName="DictionaryService1.xsd" MetadataType="Schema" ID="8e73cb7a-197d-4904-9386-a5c8db511722" SourceId="1" SourceUrl="http://localhost:59795/DictionaryService.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
