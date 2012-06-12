@@ -15,7 +15,7 @@ namespace SimpleDatabaseProject
         public void insertToTable(string NameWord)
         {
 
-            DatabaseContent = new SampleDatabaseEntities(@"Data Source=C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\SampleDatabase.sdf");
+            DatabaseContent = new SampleDatabaseEntities(@"Data Source=C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\SampleDatabase.sdf");
             //запрос на запонение БД
             //LINQ insert
 

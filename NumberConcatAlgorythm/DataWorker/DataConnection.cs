@@ -49,7 +49,7 @@ namespace DataWorker
             DictionaryDataContext data = new DictionaryDataContext();
             Array Words = (
                               from w in data.Words
-                              select w.word
+                              select w.word1
                            ).ToArray<string>();
             return Words;
         }

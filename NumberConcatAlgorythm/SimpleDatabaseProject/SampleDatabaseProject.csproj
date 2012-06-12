@@ -78,7 +78,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
     <EntityDeploy Include="LocalDataModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>LocalDataModel.Designer.cs</LastGenOutput>

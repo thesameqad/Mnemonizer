@@ -5,3 +5,10 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\bin\De
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\SimpleDatabaseProject.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\SimpleDatabaseProject.pdb
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\bin\Debug\SampleDatabase.sdf
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\bin\Debug\SimpleDatabaseProject.dll.config
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\bin\Debug\SimpleDatabaseProject.dll
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\bin\Debug\SimpleDatabaseProject.pdb
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\SimpleDatabaseProject.dll
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\SimpleDatabaseProject.pdb

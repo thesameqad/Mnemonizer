@@ -83,7 +83,7 @@ namespace Coder
             {
 
                 //total lenght of dictionary
-                int countWordsInDictionary = client.GetWordsCount(); //dataConnector.getCountOfRows();
+                int countWordsInDictionary = client.GetWordsCount();
 
 
                 //DataBaseService.DbServiceClient dbService = new DataBaseService.DbServiceClient();

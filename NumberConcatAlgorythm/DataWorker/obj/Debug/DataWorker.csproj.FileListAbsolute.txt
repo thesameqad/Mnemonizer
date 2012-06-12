@@ -16,3 +16,9 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\DataWorker\bin\Debug\DataWor
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\DataWorker.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\DataWorker\obj\Debug\DataWorker.pdb
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\DataWorker\bin\Debug\DataWorker.dll.config
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\DataWorker\bin\Debug\DataWorker.dll
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\DataWorker\bin\Debug\DataWorker.pdb
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\DataWorker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\DataWorker\obj\Debug\DataWorker.dll
+C:\Users\Yana\Desktop\NumberConcatAlgorythm\DataWorker\obj\Debug\DataWorker.pdb
