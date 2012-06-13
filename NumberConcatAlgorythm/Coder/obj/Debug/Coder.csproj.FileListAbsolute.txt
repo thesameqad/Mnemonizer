@@ -21,8 +21,6 @@ C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
 C:\Users\1\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
-C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
-C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
@@ -41,3 +39,12 @@ C:\Users\Yana\Desktop\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProjec
 C:\Users\Yana\Desktop\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Yana\Desktop\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
 C:\Users\Yana\Desktop\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SampleDatabase.sdf
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll.config
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.dll
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.pdb
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb

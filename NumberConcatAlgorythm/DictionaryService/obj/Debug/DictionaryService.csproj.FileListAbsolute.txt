@@ -13,3 +13,8 @@ C:\Users\Yana\Desktop\NumberConcatAlgorythm\DictionaryService\bin\DictionaryServ
 C:\Users\Yana\Desktop\NumberConcatAlgorythm\DictionaryService\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Yana\Desktop\NumberConcatAlgorythm\DictionaryService\obj\Debug\DictionaryService.dll
 C:\Users\Yana\Desktop\NumberConcatAlgorythm\DictionaryService\obj\Debug\DictionaryService.pdb
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\DictionaryService\bin\DictionaryService.dll
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\DictionaryService\bin\DictionaryService.pdb
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\DictionaryService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\DictionaryService\obj\Debug\DictionaryService.dll
+C:\Users\Yana\Desktop\mnemonizer\NumberConcatAlgorythm\DictionaryService\obj\Debug\DictionaryService.pdb
