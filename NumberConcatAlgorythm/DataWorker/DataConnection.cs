@@ -10,7 +10,7 @@ namespace DataWorker
     public class DataConnection
     {
         //поиск слова по номеру в словаре
-        public string getWordByNumber(ulong number)
+        public string getWordByNumber(int number)
         {
             DictionaryDataContext data = new DictionaryDataContext();
             string word = (
@@ -34,24 +34,14 @@ namespace DataWorker
         }
 
         //подсчет количества слов в словаре
-        public ulong getCountOfRows()
+        public int getCountOfRows()
         {
             DictionaryDataContext data = new DictionaryDataContext();
             int idWord = (
                               from w in data.Words
                               select w.Id
                            ).Count();
-            return (ulong)idWord;
-        }
-
-        public Array getAllWords()
-        {
-            DictionaryDataContext data = new DictionaryDataContext();
-            Array Words = (
-                              from w in data.Words
-                              select w.word
-                           ).ToArray<string>();
-            return Words;
+            return idWord;
         }
     }
 }
