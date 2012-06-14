@@ -8,7 +8,8 @@ namespace Coder
 {
     public class MnemonicCoder
     {
-        private SimpleDatabaseProject.LocalDataConnector client = new SimpleDatabaseProject.LocalDataConnector();
+        //private SampleDatabaseProject.LocalDataConnector client = new SampleDatabaseProject.LocalDataConnector();
+        private DataWorker.DataConnection client = new DataWorker.DataConnection();
 
         public string GetMnemonicString (string enterString)
         {
@@ -23,7 +24,7 @@ namespace Coder
             //{
 
                 //total lenght of dictionary
-                int countWordsInDictionary = client.GetWordsCount(); //dataConnector.getCountOfRows();
+            int countWordsInDictionary = client.getCountOfRows();//client.GetWordsCount();
 
                 for (int i = 0; i < enterString.Length; i++)
                 {
@@ -43,7 +44,7 @@ namespace Coder
                 {
                     NumericCode = BigInteger.DivRem(NumericCode, countWordsInDictionary, out ModOfDivCode);
                     //Get word by number. Number equals integral part of the division
-                    MnemonicString += client.GetWordById((int)ModOfDivCode);
+                    MnemonicString += client.getWordByNumber((int)ModOfDivCode);//GetWordById((int)ModOfDivCode);
                     MnemonicString += " ";
                 }
                 while (NumericCode != 0);
@@ -69,11 +70,11 @@ namespace Coder
             //{
 
                 //total lenght of dictionary
-                int countWordsInDictionary = client.GetWordsCount();
+            int countWordsInDictionary = client.getCountOfRows();//client.GetWordsCount();
 
                 for (int i = N - 1; i >= 0; i--)
                     if (words[i] != "")
-                        NumericCode += client.GetIdForWord(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+                        NumericCode += client.getWordId(words[i]) * BigInteger.Pow(countWordsInDictionary, i);//GetIdForWord(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
            // }
 
             //code of simbol

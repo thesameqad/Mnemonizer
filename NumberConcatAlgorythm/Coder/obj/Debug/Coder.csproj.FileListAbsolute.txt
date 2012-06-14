@@ -28,3 +28,6 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll.co
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SampleDatabase.sdf
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Database1.sdf
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
