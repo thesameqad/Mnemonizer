@@ -19,3 +19,10 @@ C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\DeCodeString\bin\Release\Find
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\DeCodeString\obj\x86\Release\ResolveAssemblyReference.cache
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\DeCodeString\obj\x86\Release\DeCodeString.dll
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\DeCodeString\obj\x86\Release\DeCodeString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\DeCodeString\bin\Release\DeCodeString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\DeCodeString\bin\Release\DeCodeString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\DeCodeString\bin\Release\FindString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\DeCodeString\bin\Release\FindString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\DeCodeString\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\DeCodeString\obj\x86\Release\DeCodeString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\DeCodeString\obj\x86\Release\DeCodeString.pdb

@@ -1,0 +1,6 @@
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Service Mnemonizer\Service Mnemonizer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Service Mnemonizer\Service Mnemonizer\bin\Debug\Service Mnemonizer.dll.config
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Service Mnemonizer\Service Mnemonizer\bin\Debug\Service Mnemonizer.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Service Mnemonizer\Service Mnemonizer\bin\Debug\Service Mnemonizer.pdb
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Service Mnemonizer\Service Mnemonizer\obj\Debug\Service Mnemonizer.dll
+C:\Users\Dima\Documents\Visual Studio 2010\Projects\Service Mnemonizer\Service Mnemonizer\obj\Debug\Service Mnemonizer.pdb

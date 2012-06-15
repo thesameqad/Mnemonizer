@@ -55,3 +55,22 @@ C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Relea
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\mnemonic_string.Properties.Resources.resources
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\GenerateResource.read.1.tlog
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\mnemonic string.exe
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\mnemonic string.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\mnemonic string.exe
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\mnemonic string.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\CodeString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\DeCodeString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\FindString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\CodeString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\DeCodeString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\bin\Release\FindString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\MainWindow.baml
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\MainWindow.g.cs
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\App.g.cs
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\mnemonic string_MarkupCompile.cache
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\mnemonic string.g.resources
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\mnemonic_string.Properties.Resources.resources
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\mnemonic string\obj\x86\Release\GenerateResource.write.1.tlog

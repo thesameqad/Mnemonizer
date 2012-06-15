@@ -19,3 +19,10 @@ C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\CodeString\bin\Release\FindSt
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\CodeString\obj\Release\ResolveAssemblyReference.cache
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\CodeString\obj\Release\CodeString.dll
 C:\Users\Dima\Desktop\mnemonizer\EncodingAlgorythm\CodeString\obj\Release\CodeString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\CodeString\bin\Release\CodeString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\CodeString\bin\Release\CodeString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\CodeString\bin\Release\FindString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\CodeString\bin\Release\FindString.pdb
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\CodeString\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\CodeString\obj\Release\CodeString.dll
+C:\Users\Dima\Desktop\Новая папка\mnemonizer\EncodingAlgorythm\CodeString\obj\Release\CodeString.pdb
