@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Dictionary" Class="DictionaryDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=1-ПК\SQLEXPRESS;Initial Catalog=Dictionary;Integrated Security=True" SettingsObjectName="DataWorker.Properties.Settings" SettingsPropertyName="DictionaryConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DIMA-PC;Initial Catalog=Dictionary;Integrated Security=True" SettingsObjectName="DataWorker.Properties.Settings" SettingsPropertyName="DictionaryConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Words" Member="Words">
     <Type Name="Word">
-      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID" Member="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="word" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
     </Type>
   </Table>

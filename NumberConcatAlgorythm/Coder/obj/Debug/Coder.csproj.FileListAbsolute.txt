@@ -31,3 +31,14 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDataba
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Database1.sdf
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SampleDatabase.sdf
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll.config
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.pdb
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.dll
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.pdb
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.dll
+C:\Users\Dima\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\obj\Debug\Coder.pdb

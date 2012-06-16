@@ -16,15 +16,13 @@ namespace ServiceJson
       
         public string GetMnemonicString(string enterString)
         {
-
-            return coder.GetMnemonicString(enterString);
-            
+            return coder.GetMnemonicString(enterString);        
          
         }
 
-       public string GetOriginalString(string mnemonicString)
+        public string GetOriginalString(string enterString)
         {
-            return coder.GetOriginalString(mnemonicString);
+            return coder.GetOriginalString(enterString);
         }
     }
 }
