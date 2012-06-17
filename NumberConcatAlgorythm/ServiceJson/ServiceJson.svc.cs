@@ -13,16 +13,16 @@ namespace ServiceJson
     public class ServiceJson : IServiceJson
     {
       private MnemonicCoder coder = new MnemonicCoder();
-      
-        public string GetMnemonicString(string enterString)
-        {
-            return coder.GetMnemonicString(enterString);        
-         
-        }
 
-        public string GetOriginalString(string enterString)
-        {
-            return coder.GetOriginalString(enterString);
-        }
+      public OperationService GetMnemonicString(string enterString)
+      {
+          return new OperationService { MnemonicString = coder.GetMnemonicString(enterString), resultString = enterString };
+      }
+
+     public OperationService GetOriginalString(string enterString)     
+      {
+          return new OperationService { MnemonicString = enterString, resultString = coder.GetOriginalString(enterString) }; 
+      }
     }
+
 }

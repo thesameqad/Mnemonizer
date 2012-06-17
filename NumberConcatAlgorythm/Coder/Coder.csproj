@@ -56,10 +56,6 @@
       <Project>{824BD1A1-290D-44B6-89B0-347F6A0EA31B}</Project>
       <Name>DataWorker</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SimpleDatabaseProject\SampleDatabaseProject.csproj">
-      <Project>{2D6DF482-F3DD-4B20-8577-1183E277244A}</Project>
-      <Name>SampleDatabaseProject</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
