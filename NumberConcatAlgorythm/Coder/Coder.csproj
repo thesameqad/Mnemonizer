@@ -60,6 +60,10 @@
       <Project>{2D6DF482-F3DD-4B20-8577-1183E277244A}</Project>
       <Name>SampleDatabaseProject</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XMLdatabaseProject\XMLdatabaseProject.csproj">
+      <Project>{AB951DE1-FE03-45DD-BE4F-B92951C55E5B}</Project>
+      <Name>XMLdatabaseProject</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
