@@ -71,5 +71,5 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemoni
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\Mnemonizer.application
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.exe.manifest
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\obj\x86\Debug\Mnemonizer.application
-C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\XMLdatabaseProject.dll
-C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\XMLdatabaseProject.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\DataWorker.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Mnemonizer\bin\Debug\DataWorker.pdb

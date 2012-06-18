@@ -5,4 +5,3 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\obj\De
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\SimpleDatabaseProject.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\obj\Debug\SimpleDatabaseProject.pdb
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\bin\Debug\SampleDatabase.sdf
-C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\SimpleDatabaseProject\bin\Debug\Database1.sdf

@@ -12,13 +12,13 @@ namespace ServiceJson
     [ServiceContract]
     public interface IServiceJson
     {
+        [WebGet(UriTemplate = "Original?enterString={enterString}", ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
-        /*[WebGet( ResponseFormat = WebMessageFormat.Json)]*/
-        [WebGet(UriTemplate = "?enterString={enterString}", ResponseFormat = WebMessageFormat.Json)]
-        string GetMnemonicString(string enterString);
-      [OperationContract]
-        [WebGet(UriTemplate = "",ResponseFormat = WebMessageFormat.Json)]
-        string GetOriginalString(string mnemonicString);
+        OperationService GetOriginalString(string enterString);
+
+        [WebGet(UriTemplate = "Mnemonic?enterString={enterString}", ResponseFormat = WebMessageFormat.Json)]
+        [OperationContract]
+        OperationService GetMnemonicString(string enterString);
         
     }
 }

@@ -17,6 +17,11 @@ namespace ServiceJson
             this.resultString = Str;
             
         }
+
+        public OperationService()
+        {
+            // TODO: Complete member initialization
+        }
         [DataMember]
         public string MnemonicString { get; set; }
         [DataMember]
