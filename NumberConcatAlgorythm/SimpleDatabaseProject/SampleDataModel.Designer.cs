@@ -17,7 +17,7 @@ using System.Runtime.Serialization;
 
 [assembly: EdmSchemaAttribute()]
 
-namespace SimpleDatabaseProject
+namespace SampleDatabaseProject
 {
     #region Contexts
     

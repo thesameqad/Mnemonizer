@@ -5,11 +5,17 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace SimpleDatabaseProject
+namespace SampleDatabaseProject
 {
     public class LocalDataConnector
     {
-        private SampleDatabaseEntities1 DatabaseContent = new SampleDatabaseEntities1();
+        private SampleDatabaseEntities1 DatabaseContent = new SampleDatabaseEntities1("metadata=res://*/SampleDataModel.csdl|res://*/SampleDataModel.ssdl|res://*/SampleDataModel.msl;provider=System.Data.SqlServerCe.3.5;provider connection string=\" Data Source=../../../SimpleDatabaseProject/SampleDatabase.sdf\"");
+        //private SampleDatabaseEntities1 dm = new SampleDatabaseEntities1();
+
+        public LocalDataConnector()
+        {      
+
+        }
 
         public string GetWordById(int id)
         {

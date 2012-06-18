@@ -17,7 +17,7 @@ namespace ServiceJson
         [WebGet(UriTemplate = "?enterString={enterString}", ResponseFormat = WebMessageFormat.Json)]
         string GetMnemonicString(string enterString);
       [OperationContract]
-        [WebGet(ResponseFormat = WebMessageFormat.Json)]
+        [WebGet(UriTemplate = "",ResponseFormat = WebMessageFormat.Json)]
         string GetOriginalString(string mnemonicString);
         
     }
