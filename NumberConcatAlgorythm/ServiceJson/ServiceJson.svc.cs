@@ -6,29 +6,30 @@ using System.ServiceModel;
 using System.Text;
 using Coder;
 using System.Numerics;
+using DataWorker.XmlDataWorker;
 
 namespace ServiceJson
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "ServiceJson" in code, svc and config file together.
     public class ServiceJson : IServiceJson
     {
-      // private MnemonicCoder coder = new MnemonicCoder();
-        //!!!Что бы проверить работу нужно в URL вписать:  http://localhost:2934/ServiceJson.svc/?enterString=asddaf
-        //если не вызывать методы MnemonicCoder, то все работает и возвращает Json, если вызывать , то все валиться
-        //валиться начинает с private MnemonicCoder coder = new MnemonicCoder();
-        public OperationService GetMnemonicString(string enterString)
-        {
 
-            OperationService JsonStr = new OperationService(enterString, "jjj");//coder.GetMnemonicString(enterString));
-                    
-            return JsonStr;
-         
-        }
+      private MnemonicCoder coder;
 
+      public ServiceJson()
+      {
+          coder = new MnemonicCoder();
+          coder.DataWorker = new XmlDataWorker();
+      }
 
-      /*  public string GetOriginalString(string mnemonicString)
-        {
-            return coder.GetOriginalString(mnemonicString);
-        }*/
+      public OperationService GetMnemonicString(string enterString)
+      {
+          return new OperationService { MnemonicString = coder.GetMnemonicString(enterString), resultString = enterString };
+      }
+
+      public OperationService GetOriginalString(string enterString)
+      {
+          return new OperationService { MnemonicString = enterString, resultString = coder.GetOriginalString(enterString) };
+      }
     }
 }

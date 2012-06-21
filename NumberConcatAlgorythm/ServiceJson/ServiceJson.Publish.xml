@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://mnemonizer.com/Developer" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="True" userName="mnemonizer" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6wg35Z96zUqaN8/sbe+gFwAAAAACAAAAAAAQZgAAAAEAACAAAADj1/i2qgFpquumZo7C1XefAqCRyY5vV7OX4GqbPYWflQAAAAAOgAAAAAIAACAAAACW/BhOiYaaCfThJksQPT30nn8LF59E08yjVBXzOP2uFCAAAACEGTYcx7E9L6vQnQTsrWNVFl4TKuBYJE4YQd86f/Xqg0AAAABjbExvChpLf5WyCWO76ehNYNVXncYshYTL0KRSmzouC8O18aW35y+kGSkpe8pfHgSWPZSwiA+EU0a3XpO3XjM8" SelectedForPublish="True">
+    <file relUrl="bin/DataWorker.dll" publishTime="06/19/2012 01:27:46" />
+    <file relUrl="bin/ServiceJson.dll" publishTime="06/19/2012 15:15:02" />
+    <file relUrl="bin/Coder.dll" publishTime="06/19/2012 14:53:24" />
+    <file relUrl="bin/Coder.pdb" publishTime="06/19/2012 14:53:24" />
+    <file relUrl="bin/DataWorker.pdb" publishTime="06/19/2012 01:27:46" />
+    <file relUrl="Web.config" publishTime="06/19/2012 15:11:25" />
+    <file relUrl="ServiceJson.svc" publishTime="06/18/2012 22:22:28" />
+    <file relUrl="bin/ServiceJson.pdb" publishTime="06/19/2012 15:15:02" />
+  </publishProfile>
+</publishData>

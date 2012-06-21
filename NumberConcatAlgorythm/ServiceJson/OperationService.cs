@@ -13,8 +13,14 @@ namespace ServiceJson
   
         public OperationService(string Str,string Word)
         {
-            this.resultString = Str;
             this.MnemonicString = Word;
+            this.resultString = Str;
+            
+        }
+
+        public OperationService()
+        {
+            // TODO: Complete member initialization
         }
         [DataMember]
         public string MnemonicString { get; set; }

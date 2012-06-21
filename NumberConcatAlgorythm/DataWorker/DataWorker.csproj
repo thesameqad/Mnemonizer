@@ -44,8 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataConnection.cs" />
-    <Compile Include="Dictionary.designer.cs">
+    <Compile Include="IDataWorker.cs" />
+    <Compile Include="SqlServerDataWorker\DataConnection.cs" />
+    <Compile Include="SqlServerDataWorker\Dictionary.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Dictionary.dbml</DependentUpon>
@@ -56,12 +57,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="XmlDataWorker\XmlDataWorker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Dictionary.dbml">
+    <None Include="SqlServerDataWorker\App.Config" />
+    <None Include="SqlServerDataWorker\Dictionary.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>Dictionary.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
@@ -76,9 +76,14 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Dictionary.dbml.layout">
+    <None Include="SqlServerDataWorker\Dictionary.dbml.layout">
       <DependentUpon>Dictionary.dbml</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XmlDataWorker\Dictionary.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
