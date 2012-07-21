@@ -10,9 +10,22 @@ namespace ServiceJson
     [DataContract]
     public class OperationService
     {
+  
+        public OperationService(string Str,string Word)
+        {
+            this.MnemonicString = Word;
+            this.resultString = Str;
+            
+        }
+
+        public OperationService()
+        {
+            // TODO: Complete member initialization
+        }
         [DataMember]
-        public String MnemonicString { get; set; }
+        public string MnemonicString { get; set; }
         [DataMember]
-        public String resultString { get; set; }
+        public string resultString { get; set; }
+
     }
 }

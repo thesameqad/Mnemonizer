@@ -1,0 +1,10 @@
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\bin\Debug\XMLdatabaseProject.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\bin\Debug\XMLdatabaseProject.pdb
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\obj\Debug\XMLdatabaseProject.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\obj\Debug\XMLdatabaseProject.pdb
+C:\Development\Mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\bin\Debug\XMLdatabaseProject.dll
+C:\Development\Mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\bin\Debug\XMLdatabaseProject.pdb
+C:\Development\Mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\obj\Debug\XMLdatabaseProject.dll
+C:\Development\Mnemonizer\NumberConcatAlgorythm\XMLdatabaseProject\obj\Debug\XMLdatabaseProject.pdb

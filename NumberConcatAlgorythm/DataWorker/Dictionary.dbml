@@ -2,8 +2,8 @@
   <Connection Mode="AppSettings" ConnectionString="Data Source=DIMA-PC;Initial Catalog=Dictionary;Integrated Security=True" SettingsObjectName="DataWorker.Properties.Settings" SettingsPropertyName="DictionaryConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Words" Member="Words">
     <Type Name="Word">
-      <Column Name="ID" Member="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="word" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="word" Member="word1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
 </Database>

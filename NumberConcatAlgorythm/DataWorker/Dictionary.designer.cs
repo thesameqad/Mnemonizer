@@ -80,18 +80,18 @@ namespace DataWorker
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
-		private int _Id;
+		private int _ID;
 		
-		private string _word;
+		private string _word1;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
-    partial void OnIdChanging(int value);
-    partial void OnIdChanged();
-    partial void OnwordChanging(string value);
-    partial void OnwordChanged();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void Onword1Changing(string value);
+    partial void Onword1Changed();
     #endregion
 		
 		public Word()
@@ -99,42 +99,42 @@ namespace DataWorker
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="ID", Storage="_Id", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int Id
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
 		{
 			get
 			{
-				return this._Id;
+				return this._ID;
 			}
 			set
 			{
-				if ((this._Id != value))
+				if ((this._ID != value))
 				{
-					this.OnIdChanging(value);
+					this.OnIDChanging(value);
 					this.SendPropertyChanging();
-					this._Id = value;
-					this.SendPropertyChanged("Id");
-					this.OnIdChanged();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_word", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
-		public string word
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="word", Storage="_word1", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string word1
 		{
 			get
 			{
-				return this._word;
+				return this._word1;
 			}
 			set
 			{
-				if ((this._word != value))
+				if ((this._word1 != value))
 				{
-					this.OnwordChanging(value);
+					this.Onword1Changing(value);
 					this.SendPropertyChanging();
-					this._word = value;
-					this.SendPropertyChanged("word");
-					this.OnwordChanged();
+					this._word1 = value;
+					this.SendPropertyChanged("word1");
+					this.Onword1Changed();
 				}
 			}
 		}

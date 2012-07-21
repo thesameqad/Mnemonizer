@@ -12,6 +12,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Coder;
+using DataWorker;
+using DataWorker.XmlDataWorker;
 
 namespace Mnemonizer
 {
@@ -20,11 +22,13 @@ namespace Mnemonizer
     /// </summary>
     public partial class MainWindow : Window
     {
-        private MnemonicCoder coder = new MnemonicCoder();
+        private MnemonicCoder coder;// = new MnemonicCoder();
 
         public MainWindow()
         {
             InitializeComponent();
+            coder = new MnemonicCoder();
+            //coder.DataWorker = new XmlDataWorker();
         }
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)

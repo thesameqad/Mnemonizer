@@ -13,6 +13,7 @@
     <RootNamespace>ServiceJson</RootNamespace>
     <AssemblyName>ServiceJson</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -86,6 +87,10 @@
     <ProjectReference Include="..\Coder\Coder.csproj">
       <Project>{2A842011-48C7-4F8F-8778-C881317867F7}</Project>
       <Name>Coder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataWorker\DataWorker.csproj">
+      <Project>{824BD1A1-290D-44B6-89B0-347F6A0EA31B}</Project>
+      <Name>DataWorker</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
