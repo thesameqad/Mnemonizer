@@ -5,13 +5,17 @@ using System.Text;
 using System.Numerics;
 using System.Windows.Forms;
 using DataWorker;
+<<<<<<< HEAD
 using DataWorker.XmlDataWorker;
+=======
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 
 namespace Coder
 {
 
     public class MnemonicCoder
     {
+<<<<<<< HEAD
 
         private IDataWorker[] dataWorker;
         private int[] countWordsInDictionary;
@@ -29,6 +33,10 @@ namespace Coder
             countWordsInDictionary[1] = dataWorker[1].GetWordsCount();
 
         }
+=======
+        public IDataWorker DataWorker { get; set; }
+        public bool IsError { set; get; }
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 
         public string GetMnemonicString (string enterString)
         {
@@ -39,7 +47,11 @@ namespace Coder
             string code = "";
             //numeric code of word (intager format)
             BigInteger numericCode = new BigInteger();
+<<<<<<< HEAD
             //int countWordsInDictionary = nounsDataWorker.GetWordsCount();//DataWorker.GetWordsCount();
+=======
+            int countWordsInDictionary = DataWorker.GetWordsCount();
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 
                 for (int i = 0; i < enterString.Length; i++)
                 {
@@ -54,18 +66,28 @@ namespace Coder
 
                 //remainder of dividing
                 BigInteger modOfDivCode = 0;
+<<<<<<< HEAD
                 
+=======
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 
                 int index = 0;
                 do
                 {
                     try
                     {
+<<<<<<< HEAD
                         numericCode = BigInteger.DivRem(numericCode, countWordsInDictionary[index], out modOfDivCode);
                         //Get word by number. Number equals integral part of the division
                         mnemonicString += dataWorker[index].GetWordById((int)modOfDivCode);//DataWorker.GetWordById((int)modOfDivCode);
                         mnemonicString += " ";
                         index = 2 - (index + 1);
+=======
+                        numericCode = BigInteger.DivRem(numericCode, countWordsInDictionary, out modOfDivCode);
+                        //Get word by number. Number equals integral part of the division
+                        mnemonicString += DataWorker.GetWordById((int)modOfDivCode);
+                        mnemonicString += " ";
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
                     }
                     catch (ArgumentNullException ex)
                     {
@@ -84,7 +106,10 @@ namespace Coder
             return mnemonicString;
         }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
         public string GetOriginalString (string mnemonicString)
         {
             IsError = false;
@@ -104,6 +129,7 @@ namespace Coder
          
             //numeric code of mnemonic string
             BigInteger numericCode = 0;
+<<<<<<< HEAD
 
             //int countWordsInDictionary = nounsDataWorker.GetWordsCount();//DataWorker.GetWordsCount();
 
@@ -126,6 +152,16 @@ namespace Coder
                             degreeOfNumber += 1;
 
                         numericCode += dataWorker[index].GetIdForWord(words[i]) * BigInteger.Pow(countWordsInDictionary[0], degreeOfNumber) * BigInteger.Pow(countWordsInDictionary[1], i / 2);
+=======
+
+            int countWordsInDictionary = DataWorker.GetWordsCount();
+
+                for (int i = wordsCount - 1; i >= 0; i--)
+                {
+                    try
+                    {
+                        numericCode += DataWorker.GetIdForWord(words[i]) * BigInteger.Pow(countWordsInDictionary, i);//client.GetIdForWord(words[i]) * BigInteger.Pow(countWordsInDictionary, i);
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
                     }
                     catch (ArgumentNullException ex)
                     {

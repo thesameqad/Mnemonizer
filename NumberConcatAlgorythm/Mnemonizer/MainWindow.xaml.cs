@@ -12,8 +12,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Coder;
+<<<<<<< HEAD
 using DataWorker;
 using DataWorker.XmlDataWorker;
+=======
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 
 namespace Mnemonizer
 {
@@ -22,7 +25,11 @@ namespace Mnemonizer
     /// </summary>
     public partial class MainWindow : Window
     {
+<<<<<<< HEAD
         private MnemonicCoder coder;// = new MnemonicCoder();
+=======
+        private MnemonicCoder coder = new MnemonicCoder();
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 
         public MainWindow()
         {

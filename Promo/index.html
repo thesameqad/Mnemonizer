@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mnemonizer</title>
+<meta charset="utf-8" />
+<meta name="keywords" content="mnemonize, mnemonise, e-mail, string, coding, Mnemozer" />
+<meta name="description" content="A demonstration of mnemonize." />
+<meta name="robots" content="all" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" 
+      type="image/png" 
+      href="/img/icon.png" />
+<script type="text/javascript">
+
+    var n = 0;
+    var serviceUrl = "http://mnemonizer.com/developer/ServiceJson.svc";
+    function getOriginalString() {
+        url = serviceUrl + "/GetOriginal/" + $('#s').val();
+        $.getJSON(url, null,
+            function (data) {
+                if (data == null) {
+                    $("#P1").html("Unexpected exception was thrown");
+
+                }
+                else {
+                    $("#P1").html("Input mnemonic string:").css("color", "aqua");
+                    $("#P2").html(data.MnemonicString);
+                    $("#P3").html("Original string:").css("color", "aqua");
+                    $("#P4").html(data.resultString);
+                }
+            }
+         );
+            $("#P1").html("<img src='/img/loading.gif' alt='loading'/>").css("text-align", "center");
+            $("#P2").empty();
+            $("#P3").empty();
+            $("#P4").empty();
+              
+     }
+        
+        function getMnemonicString () {
+            url = serviceUrl + "/GetMnemonic/" + $('#s2').val();
+            $.getJSON(url, null,
+               function (data) {
+                   if (data == null) {
+                       $('#P1').html("Unexpected exception was thrown");
+                   }
+                   else {
+                       $("#P1").html("Input original string:").css("color", "aqua");
+                       $("#P2").html(data.resultString);
+                       $("#P3").html("Mnemonic string:").css("color", "aqua");
+                       $("#P4").html(data.MnemonicString);
+                   }
+               }
+            );
+               $("#P1").html("<img src='/img/loading.gif' alt='loading'/>").css("text-align","center");
+               $("#P2").empty();
+               $("#P3").empty();
+               $("#P4").empty();
+        }
+</script> 
+</head> 
+<body>
+  <header>  </header>
+  <section>
+     <div id="opisanie">
+        <p>Never forget, always mnemonize</p>
+     </div>
+     <aside>
+       <form id="searchForm" method="post">
+         <fieldset>
+         <input id="s2" type="text" value="Enter the string to encode" 
+            onfocus="this.title=(this.title ? this.title : this.value); this.value=(this.value==this.title ? '' : this.value);" onblur="this.value=(this.value=='' ? this.title : this.value);"
+            />     	
+
+          <input type="button" value="Get mnemonic" id="get_mnemonic" onclick="getMnemonicString()"" />
+
+          <p style="text-align:center;font-size:25px;color:White;">or</p>
+
+          <input id="s" type="text" value="Enter the mnemonic string"
+            onfocus="this.title=(this.title ? this.title : this.value); this.value=(this.value==this.title ? '' : this.value);" onblur="this.value=(this.value=='' ? this.title : this.value);"
+            />       	
+            <input type="button" value="Get original" id="get_original" onclick="getOriginalString()"/>
+            
+             <div id="resultsDiv" style="border:1px stroke Red;"><p id="P1"></p><p id="P2"></p><p id="P3"></p><p id="P4"></p></div>
+          </fieldset>
+       </form>
+        <div class="downloads">
+        <p style="color:White;font-size:24px;padding:3px;">Resources</p>
+        <div style="float:left;">
+            <a href="http://mnemonizer.com/dll/mnemonizer.dll"><img src="/img/dotnet.jpg" alt=".NET" /></a><br />
+            <span style="color:White;font-size:14px;">Version 1.0</span>
+        </div>
+        <div style="float:left;">
+            <a href="https://github.com/thesameqad/mnemonizer"><img src="/img/github_logo.png" alt="git hub" /></a>
+        </div>
+        <div style="float:left;">
+            <a href="http://mnemonizer.com/developer/ServiceJson.svc?wsdl"><img src="/img/json.jpg" alt="JSON Service" /></a>
+        </div>
+        <div style="height:100px;" >&nbsp;</div>
+        </div>
+    </aside>
+  
+    <article>
+         <h1>How it works</h1>
+         <p>
+         <p>Easy to pass this type of information to other people by voice (eg by phone) if it is not convenient to text it.</p>
+         <p>Place the mnemonic string instead of your contacts information on the billboards, newspapers, tv ads etc. </p>
+         <p>3 easy steps to do:</p>
+            <ol>
+               <li id="li1">Get a mnemonic string on one side</li>
+               <li id="li2">Tell it your interlocutor</li>
+               <li id="li3">Get original string on the other side</li>
+            </ol>
+         </p>
+    </article>
+  </section>
+<footer>
+    <div>We are waiting for your feedback at 
+        <a href="mailto:support@mnemonizer.com">support@mnemonizer.com</a>
+    </div>
+</footer>    
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+ </body> 
+</html>

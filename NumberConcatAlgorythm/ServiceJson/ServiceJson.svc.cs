@@ -19,7 +19,11 @@ namespace ServiceJson
       public ServiceJson()
       {
           coder = new MnemonicCoder();
+<<<<<<< HEAD
           //coder.DataWorker = new XmlDataWorker();
+=======
+          coder.DataWorker = new XmlDataWorker();
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
       }
 
       public OperationService GetMnemonicString(string enterString)

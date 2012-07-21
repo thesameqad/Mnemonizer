@@ -16,8 +16,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceJson", "ServiceJson\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataWorker", "DataWorker\DataWorker.csproj", "{824BD1A1-290D-44B6-89B0-347F6A0EA31B}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mnemonizer", "Mnemonizer\Mnemonizer.csproj", "{88C4715B-2D34-49E9-AD79-064DE05439F9}"
 EndProject
+=======
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +81,7 @@ Global
 		{824BD1A1-290D-44B6-89B0-347F6A0EA31B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{824BD1A1-290D-44B6-89B0-347F6A0EA31B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{824BD1A1-290D-44B6-89B0-347F6A0EA31B}.Release|x86.ActiveCfg = Release|Any CPU
+<<<<<<< HEAD
 		{88C4715B-2D34-49E9-AD79-064DE05439F9}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{88C4715B-2D34-49E9-AD79-064DE05439F9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{88C4715B-2D34-49E9-AD79-064DE05439F9}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -88,6 +92,8 @@ Global
 		{88C4715B-2D34-49E9-AD79-064DE05439F9}.Release|Mixed Platforms.Build.0 = Release|x86
 		{88C4715B-2D34-49E9-AD79-064DE05439F9}.Release|x86.ActiveCfg = Release|x86
 		{88C4715B-2D34-49E9-AD79-064DE05439F9}.Release|x86.Build.0 = Release|x86
+=======
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

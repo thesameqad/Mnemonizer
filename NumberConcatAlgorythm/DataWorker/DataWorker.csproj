@@ -80,10 +80,17 @@
       <DependentUpon>Dictionary.dbml</DependentUpon>
     </None>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="XmlDataWorker\DictionaryAdjectives.xml" />
     <EmbeddedResource Include="XmlDataWorker\DictionaryNouns.xml" />
+=======
+  <ItemGroup>
+    <EmbeddedResource Include="XmlDataWorker\Dictionary.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

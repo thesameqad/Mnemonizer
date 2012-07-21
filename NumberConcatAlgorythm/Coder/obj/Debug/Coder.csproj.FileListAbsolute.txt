@@ -30,6 +30,11 @@ C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDataba
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SimpleDatabaseProject.pdb
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.dll
 C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\DataWorker.pdb
+<<<<<<< HEAD
+=======
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\XMLdatabaseProject.dll
+C:\Users\1\Desktop\mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\XMLdatabaseProject.pdb
+>>>>>>> 550a2d7cd26c001b8e893ffad0908709ce35aa03
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\SampleDatabase.sdf
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll.config
 C:\Development\Mnemonizer\NumberConcatAlgorythm\Coder\bin\Debug\Coder.dll
