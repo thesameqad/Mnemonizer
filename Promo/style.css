@@ -174,14 +174,11 @@ color: White;
 {
 	background:url('img/button2.png') no-repeat;
 }
-#s:hover
+#s:hover, #s:focus
 {
     background:url("img/search_box1.png") no-repeat;
 }
-#s:focus
-{
-    background:url("img/search_box1.png") no-repeat;
-}
+
 #s
 {
     border:none;
@@ -193,19 +190,16 @@ color: White;
 	font-size:20px;
 	line-height:30px;
 	outline:medium none;
-	padding:0 20px 0 20px; /*место ввода слов*/
+	padding:0 20px 0 20px; 
 	text-shadow:1px 1px 0 white;
 	width:300px;
 	height:60px;
 }
-#s2:hover
+#s2:hover, #s2:focus
 {
     background:url("img/search_box1.png") no-repeat;
 }
-#s2:focus
-{
-    background:url("img/search_box1.png") no-repeat;
-}
+
 #s2
 {
     border:none;
@@ -217,7 +211,7 @@ color: White;
 	font-size:20px;
 	line-height:30px;
 	outline:medium none; 
-	padding:0 20px 0 20px; /*место ввода слов*/
+	padding:0 20px 0 20px;
 	text-shadow:1px 1px 0 white;
 	width:300px;
 	height:60px;

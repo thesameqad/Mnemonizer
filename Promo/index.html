@@ -15,6 +15,13 @@
     var n = 0;
     var serviceUrl = "http://mnemonizer.com/developer/ServiceJson.svc";
     function getOriginalString() {
+        if ($('#s').val() == "" || $('#s').val() == "Enter the mnemonic string") {
+            $("#P1").html("Mnemonic string can't be empty");
+            $("#P2").empty();
+            $("#P3").empty();
+            $("#P4").empty();
+            return;
+        }
         url = serviceUrl + "/GetOriginal/" + $('#s').val();
         $.getJSON(url, null,
             function (data) {
@@ -36,8 +43,15 @@
             $("#P4").empty();
               
      }
-        
-        function getMnemonicString () {
+
+     function getMnemonicString() {
+         if ($('#s2').val() == "" || $('#s2').val() == "Enter the string to encode") {
+             $("#P1").html("Original string can't be empty");
+             $("#P2").empty();
+             $("#P3").empty();
+             $("#P4").empty();
+             return;
+         }
             url = serviceUrl + "/GetMnemonic/" + $('#s2').val();
             $.getJSON(url, null,
                function (data) {
